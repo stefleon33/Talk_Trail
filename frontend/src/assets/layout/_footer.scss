@@ -1,0 +1,7 @@
+@use '../abstracts/variables' as *;
+
+footer {
+  background-color: $secondary-color;
+  padding: $spacing-unit;
+  color: white;
+}
