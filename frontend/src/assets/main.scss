@@ -8,7 +8,7 @@
 // Base
 @use 'base/reset';
 @use 'base/typography';
-@import 'base/base';
+
 
 // Layout
 @use 'layout/header';
@@ -24,3 +24,5 @@
 
 // Themes
 @use 'themes/theme';
+
+@import 'base/base';
