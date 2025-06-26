@@ -1,5 +1,10 @@
 @use '../abstracts/variables' as *;
+@import "../abstracts/_variables.scss";
 
 .home-page {
   padding: $spacing-unit;
+}
+
+h1 {
+  color: $primary-color;
 }
