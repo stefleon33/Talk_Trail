@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import '../src/assets/main.scss'
+import Header from './components/header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Header/>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
