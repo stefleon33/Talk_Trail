@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../src/assets/main.scss'
 import Header from './components/header'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Footer/>
     </>
   )
 }
