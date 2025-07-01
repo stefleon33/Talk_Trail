@@ -7,7 +7,7 @@ const sourcemaps = require("gulp-sourcemaps");
 // File paths
 const paths = {
   scss: {
-    src: "src/assets/styles/*.scss",
+    src: "src/assets/main.scss",
     dest: "dist/css"
   }
 };
