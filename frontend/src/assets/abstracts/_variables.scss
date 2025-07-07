@@ -1,11 +1,31 @@
 // Color palette
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-
-$text-color: #333;
+$primary-color: #9dacb7;
+$secondary-color: #b8a6a0;
+$tertiary-color: #c57a3c;
+$quaternary-color: #51646b;
+$quinary-color: #647c7c;
+$text-color: white;
 
 // Spacing
 $spacing-unit: 1rem;
 
 // Typography
 $font-stack: 'Helvetica Neue', sans-serif;
+
+//spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+//borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+//box-shadow
+$base-box-shadow: 1px 3px 5px black;
+
+//font-sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
