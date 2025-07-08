@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 header {
   color: black;
@@ -7,4 +8,5 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000; 
+  font-size: $font-size-lg;
 }

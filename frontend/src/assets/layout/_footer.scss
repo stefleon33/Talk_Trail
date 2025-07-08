@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 footer {
   position: fixed;
@@ -8,5 +9,5 @@ footer {
   background-color: $secondary-color;
   padding: $spacing-unit;
   color: white;
-  font-size: xx-small;
+  font-size: $font-size-xs;
 }
