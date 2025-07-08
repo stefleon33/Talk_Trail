@@ -1,5 +1,15 @@
 @use '../abstracts/variables' as *;
 
+// Typography
+$font-stack: 'Helvetica Neue', sans-serif;
+
+//font-sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
 body {
   font-family: $font-stack;
   color: $text-color;
