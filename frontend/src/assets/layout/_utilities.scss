@@ -1,6 +1,7 @@
 //creating  a very big map
 @use 'sass:math';
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 //creating a utilities map so it can be cycled through to create classes for each value
 $utilities: (
