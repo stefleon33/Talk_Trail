@@ -4,13 +4,8 @@ export default function Header() {
 
     return(
         <header>
-            <div>
-                <div>
-                    <p>Trail Talk</p>
-                </div>
-                <div>
-                    <p>NavBar</p>
-                </div>
+            <div className="p-2">
+                <h1>Trail Talk</h1>
             </div>
         </header>
     );

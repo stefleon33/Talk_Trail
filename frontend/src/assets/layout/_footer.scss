@@ -1,7 +1,11 @@
 @use '../abstracts/variables' as *;
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: $secondary-color;
   padding: $spacing-unit;
   color: white;
+
 }
