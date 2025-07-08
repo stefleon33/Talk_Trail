@@ -5,6 +5,8 @@ $font-stack: 'Helvetica Neue', sans-serif;
 
 //font-sizes
 $base-font-size: 1rem;
+$font-size-xxs: $base-font-size * 0.25;
+$font-size-xs: $base-font-size * 0.50;
 $font-size-sm: $base-font-size * 0.75;
 $font-size-lg: $base-font-size * 1.5;
 $font-size-xl: $base-font-size * 2;
