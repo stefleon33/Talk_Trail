@@ -1,9 +1,8 @@
-import { BrowserRouter } from 'react-router-dom'
-import AppRoutes from './routes/AppRoutes'
-import '../src/assets/main.scss'
-import Header from './components/Header'
-import Footer from './components/shared/Footer'
-import Body from './pages/Home'
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+import "../src/assets/main.scss";
+import Header from "./components/Header";
+import Footer from "./components/shared/Footer";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
