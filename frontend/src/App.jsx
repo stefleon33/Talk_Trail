@@ -1,15 +1,20 @@
+import { BrowserRouter } from 'react-router-dom'
+import AppRoutes from './routes/AppRoutes'
 import '../src/assets/main.scss'
-import Header from './components/header'
-import Footer from './components/footer'
-import Body from './pages/home'
+import Header from './components/Header'
+import Footer from './components/shared/Footer'
+import Body from './pages/Home'
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <Body/>
-      <Footer/>
+      <BrowserRouter>
+        <Header />
+        <main>
+          <AppRoutes />
+        </main>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }
