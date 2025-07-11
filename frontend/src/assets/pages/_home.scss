@@ -1,11 +1,10 @@
-@use '../abstracts/variables' as *;
-@import "../abstracts/_variables.scss";
+@use "../abstracts/variables" as *;
 
 .background-image {
   position: fixed;
   width: 100%;
   height: 90%;
-  background-image: url('/Mountain_Mockup.JPG');
+  background-image: url("/Mountain_Mockup.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
