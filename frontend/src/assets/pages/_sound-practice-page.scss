@@ -1,0 +1,7 @@
+@use "../abstracts/variables" as *;
+
+.background {
+  background-color: $quaternary-color;
+  min-height: 100vh;
+  z-index: -1;
+}
