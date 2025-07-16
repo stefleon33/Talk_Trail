@@ -4,7 +4,7 @@ import "../src/assets/main.scss";
 import Header from "./components/Header";
 import Footer from "./components/shared/Footer";
 
-function App() {
+export default function App() {
   return (
     <>
       <BrowserRouter>
@@ -17,5 +17,3 @@ function App() {
     </>
   );
 }
-
-export default App;
