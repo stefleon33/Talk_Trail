@@ -10,3 +10,12 @@
   background-repeat: no-repeat;
   z-index: -1;
 }
+
+.box {
+  border: solid 1px black;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
